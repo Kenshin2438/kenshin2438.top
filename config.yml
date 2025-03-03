@@ -26,7 +26,8 @@ outputs:
     - RSS
     - JSON # is necessary
 
-paginate: 10
+pagination:
+  pagerSize: 10
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -145,5 +146,5 @@ menu:
       weight: 50
     - identifier: travelling
       name: Travelling
-      url: https://travellings.link/
+      url: https://www.travellings.cn/go.html
       weight: 60
